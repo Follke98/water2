@@ -1232,9 +1232,9 @@ header {
 
 .feedback-button:hover {
 
-    background: var(--cream);
+    background: var(--black);
 
-    color: var(--black);
+    color: var(--white);
 
     padding-left: 40px;
 
