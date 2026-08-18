@@ -1227,7 +1227,8 @@ header {
     border: 1px solid var(--line);
 
     transition: .5s;
-     background: var(--white);
+   
+    background: var(--white);
 
 }
 
