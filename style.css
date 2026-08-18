@@ -1227,12 +1227,13 @@ header {
     border: 1px solid var(--line);
 
     transition: .5s;
+     background: var(--white);
 
 }
 
 .feedback-button:hover {
 
-    background: var(--white);
+    background: var(--yellow);
 
     color: var(--black);
 
