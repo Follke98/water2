@@ -1228,15 +1228,15 @@ header {
 
     transition: .5s;
    
-    background: var(--white);
+    background-color: white;
 
 }
 
 .feedback-button:hover {
 
-    background: var(--yellow);
+    background-color: yellow;
 
-    color: var(--black);
+    color: var(--white);
 
     padding-left: 40px;
 
