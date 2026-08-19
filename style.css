@@ -1215,49 +1215,33 @@ header {
 }
 
 .feedback-button {
-
     display: inline-flex;
-
     align-items: center;
-
     gap: 50px;
-
     margin-top: 50px;
-
     padding: 20px 25px;
-
     border: 1px solid var(--line);
-
     transition: .5s;
-   
-    background-color: white;
 
+    color: #000000;
+}
+
+.feedback-button span,
+.feedback-button b {
+    color: #000000;
 }
 
 .feedback-button:hover {
-
-    background-color: black;
-
-    color: white;
+    background: var(--cream);
+    color: #000000;
 
     padding-left: 40px;
-
     padding-right: 40px;
-
 }
 
-.feedback-button span {
-
-    font-size: 10px;
-
-    letter-spacing: 4px;
-
-}
-
-.feedback-button b {
-
-    font-size: 20px;
-
+.feedback-button:hover span,
+.feedback-button:hover b {
+    color: #000000;
 }
 
 
