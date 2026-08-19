@@ -1217,13 +1217,22 @@ header {
 .feedback-button {
     display: inline-flex;
     align-items: center;
+    justify-content: space-between;
+
     gap: 50px;
     margin-top: 50px;
     padding: 20px 25px;
-    border: 1px solid var(--line);
-    transition: .5s;
 
+    /* ปุ่มปกติ */
+    background: #ffffff;
     color: #000000;
+
+    border: 1px solid #ffffff;
+
+    transition: 
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.15s ease;
 }
 
 .feedback-button span,
@@ -1231,17 +1240,32 @@ header {
     color: #000000;
 }
 
-.feedback-button:hover {
-    background: var(--cream);
-    color: #000000;
 
-    padding-left: 40px;
-    padding-right: 40px;
+/* ตอนเอาเมาส์ไปวาง */
+.feedback-button:hover {
+    background: #000000;
+    color: #ffffff;
+
+    border-color: #000000;
 }
 
 .feedback-button:hover span,
 .feedback-button:hover b {
-    color: #000000;
+    color: #ffffff;
+}
+
+
+/* ตอนกด */
+.feedback-button:active {
+    background: #000000;
+    color: #ffffff;
+
+    transform: scale(0.97);
+}
+
+.feedback-button:active span,
+.feedback-button:active b {
+    color: #ffffff;
 }
 
 
